@@ -9,7 +9,6 @@ for (let i = 0; i < pokeData.length; i++) {
   }
 }
 
-
 const template = (list, type) => {
   let emptyTitle = type;
   if (type == undefined){
@@ -54,7 +53,7 @@ template(pokeKanto);
 
 //BOTON INICIO
 let home = document.getElementById ("logoHome"); 
-home.addEventListener ("click" ,logoHome); //llamar la función
+home.addEventListener ("click" , logoHome); //llamar la función
 function logoHome (){ //función anónima
   window.location.reload();  
 }
@@ -72,8 +71,9 @@ chooseTypes.forEach(element => {
     template(filteredPoke, selectedPokeType);
   })
 })
+
 /* FUNCTION SORT */
- const pokeSortNum = pokeKanto.sort ((a,b) => {
+const pokeSortNum = pokeKanto.sort ((a,b) => {
   if (a.num > b.num) {
     return 1;
   }
@@ -82,7 +82,6 @@ chooseTypes.forEach(element => {
   }
   return 0;
 });
-
 
 const choose1Z = document.getElementById("sort1-2")
 choose1Z.addEventListener("click", ()=>{
@@ -93,7 +92,6 @@ const chooseZ1 = document.getElementById("sort2-1")
 chooseZ1.addEventListener("click", ()=>{
   template(pokeSortNum.reverse())
 });
-
 
 const pokeSortAB = pokeKanto.sort ((a,b) => {
   if (a.name > b.name) {

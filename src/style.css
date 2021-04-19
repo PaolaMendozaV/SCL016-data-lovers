@@ -183,7 +183,6 @@ margin-left: 0;
       background-position: center;
       background-size: 100%;
     }
-    
 /* con overflow se muestra */
     .subMenu{
         position: absolute;
@@ -376,4 +375,3 @@ footer a{
   justify-content: space-evenly;
   margin: 3px;
 }
-
