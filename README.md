@@ -16,7 +16,7 @@ Creado por Bárbara Sagredo - Paola Mendoza
 
 Personas con conocimientos básicos del mundo Pokemon y con interés de comenzar a jugar Pokemon Go. Nos enfocamos en personas entre 20 a 35 años de edad.
 
-**Historias de Usuario**
+**Historias de Usuario:**
 - *Historia de usuario I:*
 * Yo como usuario
 * Quiero visualizar los Pokemones de la región de Kanto
