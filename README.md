@@ -1,5 +1,6 @@
 # **"Pokémon What?!" sitio web**
 Segundo proyecto de especialización Front End generación 16 de Laboratoria.
+
 Creado por Barbara Sagredo - Paola Mendoza
 
 **- Resumen del proyecto:**
